@@ -1,0 +1,53 @@
+
+
+body{
+    background-color:grey   ;
+}
+nav{
+    color: black;
+}
+table{
+    border-collapse:collapse;
+
+}
+td,th{
+    border: 1px solid;
+    padding: .5em;
+}
+
+th{
+    background: #333;
+    color:#fff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
