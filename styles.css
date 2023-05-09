@@ -6,6 +6,15 @@ body{
 nav{
     color: black;
 }
+    nav #quinti{
+        
+        background-color: yellow;
+        color: #333;
+    }
+    nav #darling{
+        background-color:yellow ;
+    }
+
 table{
     border-collapse:collapse;
 
