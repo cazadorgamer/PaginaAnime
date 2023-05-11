@@ -1,8 +1,11 @@
 
-
-body{
-    background-color:grey   ;
+*{
+    background-color: black;
+    color: white;
 }
+/*body{
+    background-color:grey   ;
+}*/
 nav{
     color: black;
 }
@@ -24,7 +27,7 @@ th{
 
 
 button{
-    background-color:wheat;
+    background-color:silver;
     background-image:image(b) ;
 }
 
