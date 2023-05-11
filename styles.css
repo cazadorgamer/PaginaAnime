@@ -1,29 +1,19 @@
 
 *{
     background-color: black;
-    color: white;
+    color:white;
+    /*color: white;*/
+  /*  color: var(black);*/
 }
 /*body{
-    background-color:grey   ;
+    background-color:black   ;
 }*/
-nav{
-    color: black;
-}
+
     
 
-table{
-    border-collapse:collapse;
 
-}
-td,th{
-    border: 1px solid;
-    padding: .5em;
-}
 
-th{
-    background: #333;
-    color:#fff; 
-}
+
 
 
 button{
@@ -31,7 +21,7 @@ button{
     background-image:image(b) ;
 }
 
-
+body{background-color: black;}
 
 
 
