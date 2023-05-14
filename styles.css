@@ -1,7 +1,7 @@
 
 *{
     background-color: black;
-    color:white;
+   color:white;
     /*color: white;*/
   /*  color: var(black);*/
 }
@@ -17,11 +17,12 @@
 
 
 button{
-    background-color:silver;
-    background-image:image(b) ;
+    background-color:yellowgreen;
+    color:white;
+
 }
 
-body{background-color: black;}
+
 
 
 
