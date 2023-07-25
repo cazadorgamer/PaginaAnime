@@ -27,11 +27,11 @@
     border-radius:2px;
     text-decoration: none;
 }
-#cabecera{
-    position: sticky;   
+/*#cabecera{
+    position: fixed;   
 
-    top: 0;
-}
+  
+}*/
 
     div img{
         border-radius: 20 px;
