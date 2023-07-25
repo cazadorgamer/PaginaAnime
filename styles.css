@@ -56,14 +56,24 @@ p{font-size: 1rem;}
         width: 200px;
         height: 150px;
     }
-    @media (min-width :640){
-        .video{
-            width:50% ;
+    video{
+        width: 200px;
+        height: 150px;
+    }
+    @media (min-width :480px){
+        li .video{
+             width: 200px;;
+         }
+    @media (min-width :640px){
+        nav.embed-container iframe{width: 500px;
+        height: 350px;
+    }
+    video{
+        width: 500px;
+        height: 350px;
+    }
         }
-        @media (min-width :480px){
-           li .video{
-                width: 200px;;
-            }
+       
 }
     
 
