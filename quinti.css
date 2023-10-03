@@ -102,3 +102,15 @@ nav ul.nav a:hover {
 }
 
 
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-items: center; /* Centra las imágenes horizontalmente */
+}
+.image-container img {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+}

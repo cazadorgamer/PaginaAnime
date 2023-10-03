@@ -14,7 +14,7 @@ body {
 }
 
 /* Encabezado */
-h2 {
+h1 {
     text-align: center;
     color: #333;
     margin-top: 20px;
@@ -52,13 +52,13 @@ nav ul.nav li {
 
 nav ul.nav a {
     text-decoration: none;
-    color: #333;
+    color: #f0f0f0;
     font-size: 18px;
     transition: color 0.3s;
 }
 
 nav ul.nav a:hover {
-    color: #ffcc00;
+    color: #0044ff;
 }
 
 /* Trailer */
@@ -95,34 +95,21 @@ nav ul.nav a:hover {
 .container a:hover {
     background-color: #ffcc00;
 }
-
-@media (min-width :360){
-   nav.embed-container iframe{
-        width: 200px;
-        height: 150px;
-    }
-    video{
-        width: 200px;
-        height: 150px;
-    }
-    @media (min-width :480px){
-        li .video{
-             width: 200px;;
-         }
-    @media (min-width :640px){
-        nav.embed-container iframe{width: 500px;
-        height: 350px;
-    }
-    video{
-        width: 500px;
-        height: 350px;
-    }
-        }
-       
+.container {
+    max-width: 100%;
+    width: 90%; /* Esto hace que el contenedor ocupe el 90% del ancho disponible */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
-    
 
-
-
-
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-items: center; /* Centra las imágenes horizontalmente */
+}
+.image-container img {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+}
 
