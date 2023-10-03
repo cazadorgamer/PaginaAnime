@@ -1,56 +1,101 @@
-
-*{
-    background-color: black;
-   color:white;
-   box-sizing:border-box;
-   margin: 0;
-   padding: 0;
-    /*color: white;*/
-  /*  color: var(black);*/
+/* Reset de estilos por defecto */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-/*body{
-    background-color:black   ;
-}*/
 
- .nav{
-    margin-top: 10px;
-    list-style-type: none;
-    padding-left: 0;
- }  
- .nav li{
-    display: inline-block;
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
-.nav a{
-    color: white;
-    background-color: #13a4a4;
-    padding:5px;
-    border-radius:2px;
+
+/* Encabezado */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+/* Contenedor */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes */
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 10px solid black;
+}
+
+/* Enlaces de navegación */
+nav ul.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul.nav a {
     text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
 }
-/*#cabecera{
-    position: fixed;   
 
-  
-}*/
-h1{font-size: 2rem;}
-p{font-size: 1rem;}
+nav ul.nav a:hover {
+    color: #ffcc00;
+}
 
-    div img{
-        border-radius: 20 px;
-    }
-    .embed-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        overflow: hidden;
-    }
-    .embed-container iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+/* Trailer */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Enlace para ver anime */
+.container a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.container a:hover {
+    background-color: #ffcc00;
+}
+
 @media (min-width :360){
    nav.embed-container iframe{
         width: 200px;
