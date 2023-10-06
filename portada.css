@@ -1,7 +1,7 @@
 /* Estilo general */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Color de fondo de la página */
+    background-color: #696969; /* Color de fondo de la página */
     margin: 0;
     padding: 0;
 }
@@ -44,7 +44,7 @@ nav a:hover {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #696969;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
