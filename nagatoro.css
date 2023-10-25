@@ -110,7 +110,7 @@ nav ul.nav a:hover {
     justify-items: center; /* Centra las imágenes horizontalmente */
 
 }
-.image-container img {
+.image-container a {
     width: 50%;
     height: auto;
     max-width: 100%;
