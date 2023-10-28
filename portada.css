@@ -1,15 +1,15 @@
 /* Estilo general */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #696969; /* Color de fondo de la página */
     margin: 0;
     padding: 0;
 }
 
 /* Encabezado */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
     padding: 20px;
     text-align: center;
 }
@@ -21,11 +21,22 @@ h1 {
 }
 
 /* Enlaces de navegación */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
 }
 
 /* Contenedor principal */
@@ -33,8 +44,25 @@ nav a {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #696969;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes */
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 10px solid black;
+}
+img {
+    width:50% ;
+    transition: all 0.8s ease;
+}
+img:hover{
+    transition:all 0.6s ease;
+    filter: brightness(150%);
 }
 
 /* Videos y audios */
@@ -42,14 +70,6 @@ video, audio {
     max-width: 100%;
     display: block;
     margin: 20px 0;
-}
-
-/* Imágenes */
-a img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
 }
 
 /* Pie de página */
@@ -68,22 +88,6 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
-/* Estilo para el elemento de navegación */
-nav {
-    background-color: #333; /* Color de fondo del menú de navegación */
-    padding: 10px 0; /* Espaciado interno superior e inferior */
-}
-
-/* Estilo para los enlaces en el menú de navegación */
-nav a {
-    color: #fff; /* Color del texto de los enlaces */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    margin: 0 15px; /* Espacio entre los enlaces */
-    font-size: 18px; /* Tamaño de fuente de los enlaces */
-    transition: color 0.3s; /* Transición de color suave */
-}
-
-/* Estilo para los enlaces en el menú de navegación al pasar el mouse */
-nav a:hover {
-    color: #ffcc00; /* Cambia el color del texto al pasar el mouse */
+a:hover{
+    color: aqua;
 }
