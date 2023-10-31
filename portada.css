@@ -13,6 +13,18 @@ header {
     padding: 20px;
     text-align: center;
 }
+.texto{
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    font-family: 'Kenia', sans-serif;
+    color:black;
+    display: block;
+    text-shadow:  1px 5px 15px black;
+    font-size: 30px;
+    
+}
 
 /* Título principal */
 h1 {
@@ -46,6 +58,8 @@ nav a:hover {
     padding: 20px;
     background-color: #696969;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+
 }
 
 /* Imágenes */
