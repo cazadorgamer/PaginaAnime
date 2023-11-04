@@ -20,6 +20,10 @@ h1 {
     margin-top: 20px;
     font-size: 36px;
 }
+p::first-letter{
+    font-size: 3em;
+    color:white;
+}
 
 /* Contenedor */
 .container {
