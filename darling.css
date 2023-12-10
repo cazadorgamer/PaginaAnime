@@ -1,3 +1,6 @@
+*{
+    background-color: #ff6961;
+}
 /* Reset de estilos por defecto */
 body, ul, li {
     margin: 0;
@@ -19,6 +22,9 @@ h1 {
     color: #333;
     margin-top: 20px;
     font-size: 36px;
+}
+h2{
+    background-color: #ff6961;
 }
 p::first-letter{
     font-size: 3em;
