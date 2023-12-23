@@ -45,6 +45,15 @@ p::first-letter{
     border: 10px solid black;
 }
 
+/*menu*/
+.menu-container{
+    display: grid;
+    grid-template-columns: 33%  33%;
+    grid-template-rows: 33% 33%;
+    justify-content: space-around;
+    justify-items: start;
+}
+
 /* Enlaces de navegación */
 nav ul.nav {
     text-align: center;
