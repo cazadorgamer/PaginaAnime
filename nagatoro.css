@@ -1,3 +1,8 @@
+*{
+    background-color: #fdcae1;
+}
+
+
 /* Reset de estilos por defecto */
 body, ul, li {
     margin: 0;

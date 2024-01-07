@@ -1,5 +1,7 @@
 
-    
+    *{
+        background-color:  #9bfab0;
+    }
 
 /* Reset de estilos por defecto */
 body, ul, li {
