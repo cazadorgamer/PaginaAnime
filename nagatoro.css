@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fdcae1;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     margin: 0;
     padding: 0;
 }
@@ -35,7 +35,7 @@ header{
        
        padding: 10px;
        margin: 0;
-       color: #fdcae1;
+       background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
    }
    .footer{
        background-color: #333;
@@ -52,6 +52,7 @@ h1 {
     color: #333;
     margin-top: 20px;
     font-size: 36px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 p::first-letter{
     font-size: 3em;
