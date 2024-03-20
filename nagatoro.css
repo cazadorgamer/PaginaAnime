@@ -67,3 +67,7 @@ p::first-letter{
     height: 0;
     overflow: hidden;
 }
+
+img:hover{
+    width: 2em;
+}
