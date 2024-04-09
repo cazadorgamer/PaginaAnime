@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-color: #5c5470;
     margin: 0;
     padding: 0;
 }
 header{
     text-align: center;   
+    background-color: #352f44;
+    color: white;
    }
    .active{
        background-color: #fdcae1;
@@ -16,7 +18,7 @@ header{
        margin:0;
        padding:0;
        overflow: hidden;
-       background-color: #333;
+       background-color: #352f44;
    }
    li{
        float:left;
@@ -35,10 +37,11 @@ header{
        
        padding: 10px;
        margin: 0;
-       background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+       background-color: #352f44;
    }
+   
    .footer{
-       background-color: #333;
+       background-color: #2a2438;
        color: white;
        padding: 15px;
        text-align: center;
@@ -52,7 +55,10 @@ h1 {
     color: #333;
     margin-top: 20px;
     font-size: 36px;
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-color: #352f44;
+}
+h2{
+    color: white;
 }
 p::first-letter{
     font-size: 3em;
