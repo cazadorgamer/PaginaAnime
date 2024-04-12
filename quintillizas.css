@@ -60,6 +60,11 @@ p::first-letter{
     font-size: 3em;
     color:red;
 }
+img:hover{
+    margin: 5px;
+    height: 100%;
+cursor: pointer;;
+}
 
 /* Trailer */
 .embed-container {

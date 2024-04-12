@@ -38,6 +38,13 @@ h1 {
     margin: 20px auto;
     border: 10px solid black;
 }
+.card-body img:hover{
+    border:blue;
+    margin: 5px;
+    width: 30%;
+cursor: pointer;
+
+}
 
 /* Enlaces de navegación */
 nav ul.nav {

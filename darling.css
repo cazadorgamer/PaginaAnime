@@ -58,6 +58,11 @@ p::first-letter{
     color:red;
 }
 
+img:hover{
+    margin: 5px;
+    height: 100%;
+cursor: pointer;;
+}
 /* Trailer */
 .embed-container {
     position: relative;

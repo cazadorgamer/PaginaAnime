@@ -75,7 +75,9 @@ p::first-letter{
 }
 
 img:hover{
-    width: 2em;
+    margin: 5px;
+    height: 100%;
+cursor: pointer;;
 }
 .Trailer{
     color: white;
