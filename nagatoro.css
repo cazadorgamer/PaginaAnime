@@ -113,9 +113,7 @@ cursor: pointer;;
     .contenido{
 width: 70%;
     }
-    .contenido img{
-        width: 50%;
-    }
+    
 }
     header{
     display: block;
