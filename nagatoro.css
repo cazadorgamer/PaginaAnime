@@ -104,6 +104,13 @@ cursor: pointer;;
 .contenido p{
     font-size: 1.5em;
 }
+footer{
+    border-top: 50px;
+    clear: both;
+    display: block;
+    float: left;
+    font-size: 0.5em;
+}
 @media screen and (max-width: 639px){
 
     *{
