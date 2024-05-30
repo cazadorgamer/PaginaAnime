@@ -4,52 +4,124 @@ body {
     margin: 0;
     padding: 0;
 }
-header{
-    text-align: center;   
+
+header {
+    text-align: center;
     background-color: #352f44;
     color: white;
-   }
-   .active{
-       background-color: #fdcae1;
-       color: black;
-   }
-   ul{
-       list-style-type: none;
-       margin:0;
-       padding:0;
-       overflow: hidden;
-       background-color: #352f44;
-   }
-   li{
-       float:left;
-   }
-   li a{
-       display: block;
-       color:white;
-       text-align: center;
-       padding: 15px;
-       text-decoration: none;
-   }
-   li a:hover(:not(.active)){
-       background-color: #333;
-   }
-   h1{
-       
-       padding: 10px;
-       margin: 0;
-       background-color: #352f44;
-   }
-   
-   .footer{
-       background-color: #2a2438;
-       color: white;
-       padding: 15px;
-       text-align: center;
-       position: fixed;
-       bottom: 0;
-       width: 100%;
-   }
-   /* Encabezado */
+    margin-left: 100px;
+}
+
+.active {
+    background-color: #3F4530;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #352f44;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #333;
+}
+
+.container {
+    width: 30%;
+}
+
+.btn-trigger {
+    z-index: 5;
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border: 0;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-trigger:hover {
+    background-color: #453630;
+}
+
+nav {
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    transition: 0.5s all;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav ul li a:hover {
+    color: pink;
+}
+
+.menu-text {
+    width: 150px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0;
+    background-color: #352f44;
+}
+
+.footer {
+    background-color: #2a2438;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Encabezado */
 h1 {
     text-align: center;
     color: #333;
@@ -57,12 +129,14 @@ h1 {
     font-size: 36px;
     background-color: #352f44;
 }
-h2{
+
+h2 {
     color: white;
 }
-p::first-letter{
+
+p::first-letter {
     font-size: 3em;
-    color:red;
+    color: red;
 }
 
 /* Trailer */
@@ -70,65 +144,92 @@ p::first-letter{
     position: relative;
     padding-bottom: 56.25%; /* Proporción 16:9 */
     padding-top: 30px;
+    margin: 100px;
     height: 0;
     overflow: hidden;
 }
 
-img:hover{
+img:hover {
     margin: 5px;
     height: 100%;
-cursor: pointer;;
+    cursor: pointer;
 }
-.Trailer{
-    color: white;
-}
-.contenido{
 
-    display:inline-block; 
-    
+.Trailer {
+    color: white;
+    margin-left: 300px;
+}
+
+.contenido {
+    display: inline-block;
     margin-top: 25px;
     margin-right: 15px;
     margin-left: 15px;
-   
     width: 90%;
-    
 }
-.contenido img{
+
+.contenido img {
     width: 50%;
     height: 50%;
     border: #a5df00 solid 20px;
 }
-.contenido h2{
-    font-size: 4em;;
+
+.contenido h2 {
+    font-size: 4em;
 }
-.contenido p{
+
+.contenido p {
     font-size: 1.5em;
 }
-footer{
+
+footer {
     border-top: 50px;
     clear: both;
     display: block;
     float: left;
     font-size: 0.5em;
 }
-@media screen and (max-width: 639px){
 
-    *{
-
+@media screen and (max-width: 639px) {
+    * {
         font-size: 12px;
     }
-    .contenido{
-width: 70%;
+    .contenido {
+        width: 70%;
     }
-    
-}
-    header{
-    display: block;
+    header {
+        display: block;
     }
-    header figure{
-        float:left;
+    header figure {
+        float: left;
     }
-    header h1{
+    header h1 {
         font-size: 1.5em;
-    
     }
+}
+
+@media screen and (max-width: 412px) {
+    * {
+        font-size: 12px;
+    }
+    .contenido {
+        width: 70%;
+    }
+    header {
+        display: block;
+    }
+    header figure {
+        float: left;
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+    .Trailer {
+        color: white;
+        margin-left: 200px;
+    }
+}
+.custom-carousel {
+    width: 70%; /* Ajusta este valor al ancho deseado */
+    margin: 0 auto; /* Para centrar el carrusel */
+}

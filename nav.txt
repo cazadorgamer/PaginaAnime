@@ -1,0 +1,23 @@
+<div>
+         <nav id="sidebar">
+          <button id="trigger-btn" class="btn-trigder"><i class="bi bi-chevron-right">***</i></button>
+          <ul>
+            <li> <a href="index.html" ><i  class="bi bi-house"></i> <span class="menu-text"> Pagina Pricipal</span></a></li>
+              <li> <a href="nagatoro.html" ><i  class="bi bi-house"></i> <span class="menu-text"> Argumento</span></a></li>
+              <li><a  href="Nagavisuales.html" ><i class="bi bi-info-circle"></i><span class="menu-text">Visuales </span></a></li>
+              <li><a href="Nagatrailer.html" ><i class="bi bi-gear"></i><span class="menu-text">Trailer </span</a></li>
+              <li><a href="https://www.crunchyroll.com/es/series/GQWH0M455/dont-toy-with-me-miss-nagatoro" target="_blank" ><i class="bi bi-telephone"></i><span class="menu-text">Ver anime</span></a></li>
+          </ul>
+      </nav>
+            <nav>
+          <ul>
+            <!-- El que tiene el clase active es donde estás parado y te ayuda a darle estilo especial -->
+            <li><a href="index.html">Pagina Principal</a></li>
+            <li><a  href="nagatoro.html">Argumento</a></li>
+            
+            <li><a class="active" href="Nagavisuales.html">Visuales</a></li>
+            <li><a href="Nagatrailer.html">Trailer</a></li>
+            <li><a href="https://www.crunchyroll.com/es/series/GQWH0M455/dont-toy-with-me-miss-nagatoro" target="_blank" >ver Anime</a></li>
+            <li></li>            
+          </ul>
+        </nav>
