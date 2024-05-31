@@ -45,6 +45,7 @@ li a:hover:not(.active) {
     width: 30%;
 }
 .custom-carousel {
+    
     width: 60%; /* Ajusta este valor al ancho deseado */
     margin: 0 auto; /* Para centrar el carrusel */
 }
@@ -234,6 +235,7 @@ footer {
         margin-left: 200px;
     }
     .custom-carousel {
+        
         width: 30%; /* Ajusta este valor al ancho deseado */
         margin: 0 auto; /* Para centrar el carrusel */
     }
