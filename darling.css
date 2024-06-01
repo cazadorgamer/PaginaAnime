@@ -84,7 +84,8 @@ cursor: pointer;;
 }
 .custom-carousel {
     
-    width: 200px; /* Ajusta este valor al ancho deseado */
+    width: 300px; /* Ajusta este valor al ancho deseado */
+    
     margin: 0 auto; /* Para centrar el carrusel */
 }
 
@@ -187,8 +188,9 @@ p::first-letter {
 .embed-container {
     position: relative;
     padding-bottom: 56.25%; /* Proporción 16:9 */
-    padding-top: 30px;
+   
     margin: 100px;
+    margin-left: 100px;
     height: 0;
     overflow: hidden;
 }
@@ -270,4 +272,32 @@ header h1 {
     
     width: 30%; /* Ajusta este valor al ancho deseado */
     margin: 0 auto; /* Para centrar el carrusel */
+}
+@media screen and (max-width: 412px) {
+    * {
+        font-size: 12px;
+    }
+    .contenido {
+        width: 70%;
+    }
+    header {
+        display: block;
+    }
+    header figure {
+        float: left;
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+    .Trailer {
+        color: white;
+       
+    }
+    .custom-carousel {
+        
+        width: 50%; /* Ajusta este valor al ancho deseado */
+        
+        margin: 0px auto; /* Para centrar el carrusel */
+       
+    }
 }
