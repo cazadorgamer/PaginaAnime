@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, rgba(255,112,102,1) 0%, rgba(255,189,102,1) 35%, rgba(255,102,168,1) 100%);
+    background: linear-gradient(90deg, rgba(255,112,102,1) 0%, rgba(255,112,102,1) 35%, rgba(255,112,102,1) 100%);
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ header {
 }
 
 .active {
-    background-color: #ff6961;
+    background-color: rgba(255,112,102,1);
     color: black;
 }
 
@@ -44,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 .custom-carousel {
-    width: 30%; /* Ajusta este valor al ancho deseado */
+    width: 50%; /* Ajusta este valor al ancho deseado */
     margin: 0 auto; /* Para centrar el carrusel */
 }
 
@@ -80,9 +80,10 @@ img:hover {
 
 /* Trailer */
 .embed-container {
-    position: relative;
+    position:absolute;
+
     padding-bottom: 56.25%; /* Proporción 16:9 */
-    padding-top: 30px;
+    padding-top: 20px;
     height: 0;
     overflow: hidden;
 }
@@ -158,12 +159,12 @@ h1 {
 /* Trailer */
 .embed-container {
     margin: 100px;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 .Trailer {
     color: white;
-    margin-left: 300px;
+    
 }
 
 .contenido {
@@ -242,12 +243,15 @@ header h1 {
     }
     .Trailer {
         color: white;
-        margin-left: 200px;
+        margin-left: -1000px;
+
+        
     }
     .custom-carousel {
         
-        width: 60%; /* Ajusta este valor al ancho deseado */
+        width: 50%; /* Ajusta este valor al ancho deseado */
         margin: 0 auto; /* Para centrar el carrusel */
+        margin-right: 20px;
     }
 }
 
