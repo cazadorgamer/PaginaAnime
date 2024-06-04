@@ -151,6 +151,7 @@ p::first-letter {
     padding-bottom: 56.25%; /* Proporción 16:9 */
     padding-top: 30px;
     margin: 100px;
+    margin-left: 300px;
     height: 0;
     overflow: hidden;
 }
@@ -231,9 +232,18 @@ footer {
     }
     .Trailer {
         color: white;
-        margin-left: -1000px;
+      
 
         
+    }
+    .embed-container {
+        position: relative;
+        padding-bottom: 56.25%; /* Proporción 16:9 */
+        padding-top: 300px;
+        margin: 100px;
+        margin-left: 50px;
+        height: 0;
+        overflow: hidden;
     }
     .custom-carousel {
         
