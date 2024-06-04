@@ -9,7 +9,7 @@ header {
     text-align: center;
     background-color: #9bfab0;
     color: black;
-    margin-left: 100px;
+    padding: 20px;
 }
 
 .active {
@@ -44,12 +44,11 @@ li a:hover:not(.active) {
 .container {
     width: 30%;
 }
-.custom-carousel {
-    
-    width: 60%; /* Ajusta este valor al ancho deseado */
-    margin: 0 auto; /* Para centrar el carrusel */
-}
 
+.custom-carousel {
+    width: 60%;
+    margin: 0 auto;
+}
 
 .btn-trigger {
     z-index: 5;
@@ -78,7 +77,7 @@ nav {
     position: fixed;
     transition: 0.5s all;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: start;
 }
 
@@ -99,7 +98,7 @@ nav ul li a {
     text-decoration: none;
     transition: all 0.5s;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 10px;
 }
 
@@ -114,26 +113,8 @@ nav ul li a:hover {
 h1 {
     padding: 10px;
     margin: 0;
-    background-color: #352f44;
-}
-
-.footer {
-    background-color: #2a2438;
+    background-color:#9bfab0;
     color: white;
-    padding: 15px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Encabezado */
-h1 {
-    text-align: center;
-    color: #333;
-    margin-top: 20px;
-    font-size: 36px;
-    background-color: #9bfab0;
 }
 
 h2 {
@@ -145,15 +126,22 @@ p::first-letter {
     color: red;
 }
 
-/* Trailer */
 .embed-container {
     position: relative;
-    padding-bottom: 56.25%; /* Proporción 16:9 */
+    padding-bottom: 56.25%;
     padding-top: 30px;
     margin: 100px;
     margin-left: 300px;
     height: 0;
     overflow: hidden;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 img:hover {
@@ -189,11 +177,13 @@ img:hover {
 }
 
 footer {
-    border-top: 50px;
-    clear: both;
-    display: block;
-    float: left;
-    font-size: 0.5em;
+    background-color: #2a2438;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 639px) {
@@ -232,23 +222,15 @@ footer {
     }
     .Trailer {
         color: white;
-      
-
-        
     }
     .embed-container {
-        position: relative;
-        padding-bottom: 56.25%; /* Proporción 16:9 */
-        padding-top: 300px;
+        padding-top: 70px;
         margin: 100px;
-        margin-left: 50px;
-        height: 0;
-        overflow: hidden;
+        margin-left: 150px;
     }
     .custom-carousel {
-        
-        width: 50%; /* Ajusta este valor al ancho deseado */
-        margin: 0 auto; /* Para centrar el carrusel */
+        width: 50%;
+        margin: 0 auto;
         margin-right: 20px;
     }
 }
