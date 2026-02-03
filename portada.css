@@ -8,7 +8,8 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #333; /* Color de fondo del encabezado */
+     background: linear-gradient(90deg, #111, #333);
+    letter-spacing: 2px;
     color: #fff; /* Color del texto del encabezado */
     padding: 20px;
     text-align: center;
@@ -28,6 +29,7 @@ header {
 
 /* Título principal */
 h1 {
+    font-family: 'Kenia', sans-serif;
     font-size: 36px;
     margin-top: 0;
 }
@@ -37,34 +39,19 @@ h3 {
     color: white;
 }
 /* Enlaces de navegación */
-nav {
-    background-color: #333;
-    padding: 10px 0;
-    text-align: center;
-}
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    transition: color 0.3s;
-}
 
 nav a:hover {
     color: #ffcc00;
 }
 
 /* Contenedor principal */
-.container {
+.main-container {
     max-width: 960px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
-    background-color: #696969;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position:relative;
-
 }
+
 
 /* Imágenes */
 .container img {
@@ -74,10 +61,8 @@ nav a:hover {
     margin: 20px auto;
     border: 10px solid black;
 }
-img {
-    width:50% ;
-    transition: all 0.8s ease;
-}
+
+
 img:hover{
     transition:all 0.6s ease;
     filter: brightness(150%);

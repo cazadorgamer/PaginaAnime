@@ -30,16 +30,18 @@ header{
        padding: 15px;
        text-decoration: none;
    }
-   li a:hover(:not(.active)){
-       background-color: #333;
-   }
+li a:hover(:not(.active)){
+    background-color: #333;
+}
+
    h1{
     text-align: center;
     color: #333;
-    margin-top: 20px;
+  margin: 20px 0;
+
     font-size: 36px;  
        padding: 10px;
-       margin: 0;
+    
        background: radial-gradient(circle, rgba(155,250,176,1) 0%, rgba(255,255,255,1) 100%);
        
    }
@@ -48,7 +50,8 @@ header{
        color: white;
        padding: 15px;
        text-align: center;
-       position: fixed;
+       position: relative;
+
        bottom: 0;
        width: 100%;
    }

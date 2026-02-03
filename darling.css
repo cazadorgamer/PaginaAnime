@@ -3,6 +3,8 @@ body {
     background: linear-gradient(90deg, rgba(255,112,102,1) 0%, rgba(255,189,102,1) 35%, rgba(255,102,168,1) 100%);;
     margin: 0;
     padding: 0;
+
+
 }
 header{
     text-align: center;   
@@ -11,6 +13,14 @@ header{
        background-color:  #ff6961;
        color: black;
    }
+
+   h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+    color: #ff6961;
+}
+
    ul{
        list-style-type: none;
        margin:0;
@@ -18,9 +28,12 @@ header{
        overflow: hidden;
        background-color: #333;
    }
-   li{
-       float:left;
-   }
+ ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
    li a{
        display: block;
        color:white;
@@ -28,31 +41,22 @@ header{
        padding: 15px;
        text-decoration: none;
    }
-   li a:hover(:not(.active)){
-       background-color: #333;
-   }
-   h1{
-       
-       padding: 10px;
-       margin: 0;
-       color: #ff6961;
-   }
+ li a:hover:not(.active) {
+    background-color: #555;
+}
+
+
    .footer{
        background-color: #333;
        color: white;
        padding: 15px;
        text-align: center;
-       position: fixed;
+      position: relative;
        bottom: 0;
        width: 100%;
    }
    /* Encabezado */
-h1 {
-    text-align: center;
-    color: #333;
-    margin-top: 20px;
-    font-size: 36px;
-}
+
 p::first-letter{
     font-size: 3em;
     color:red;

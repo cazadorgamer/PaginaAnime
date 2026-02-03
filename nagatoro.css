@@ -3,6 +3,8 @@ body {
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     margin: 0;
     padding: 0;
+        padding-bottom: 60px;
+        color: white;
 }
 header{
     text-align: center;   
@@ -28,15 +30,19 @@ header{
        padding: 15px;
        text-decoration: none;
    }
-   li a:hover(:not(.active)){
-       background-color: #333;
-   }
-   h1{
-       
-       padding: 10px;
-       margin: 0;
-       background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-   }
+li a:not(.active):hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+    margin: 0;
+    color: #333;
+  background-color: rgba(0,0,0,0.2);
+}
+
    .footer{
        background-color: #333;
        color: white;
@@ -47,13 +53,12 @@ header{
        width: 100%;
    }
    /* Encabezado */
-h1 {
-    text-align: center;
-    color: #333;
-    margin-top: 20px;
-    font-size: 36px;
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+p {
+    background-color: rgba(0,0,0,0.4);
+    padding: 15px;
+    border-radius: 10px;
 }
+
 p::first-letter{
     font-size: 3em;
     color:red;
